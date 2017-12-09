@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/','PageController@time');
+Route::get('/',function (){
+    return view('welcome',compact('tasks'));
+});
+
 Route::get('get-tasks',function (){
 
     $tasks = App\Task::all();

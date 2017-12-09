@@ -25,24 +25,25 @@
 
 </div>
 
-<template id="task-temp">
+<h1 class="text-center">Welcome to Digital ocean web server !</h1>
+{{--<template id="task-temp">--}}
 
-    <div>
-        <h2>My tasks</h2>
-        <ul>
-            <li class="list-group-item" v-for="task in list">
-                <p>@{{task.body}}</p>
+    {{--<div>--}}
+        {{--<h2>My tasks</h2>--}}
+        {{--<ul>--}}
+            {{--<li class="list-group-item" v-for="task in list">--}}
+                {{--<p>@{{task.body}}</p>--}}
 
-            </li>
-        </ul>
-
-
-    </div>
+            {{--</li>--}}
+        {{--</ul>--}}
 
 
+    {{--</div>--}}
 
 
-</template>
+
+
+{{--</template>--}}
 
 
 <script src="js/main.js"></script>
